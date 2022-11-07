@@ -1,0 +1,27 @@
+.search {
+    position: relative;
+    height: 36px;
+    max-width: 880px;
+}
+.search__input {
+    width: 692px;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+    padding-right: 46px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 188px;
+}
+.search__input::-webkit-search-cancel-button {
+    display: none;
+}
+.search__btn {
+    position: absolute;
+    right: 216px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 0;
+}
